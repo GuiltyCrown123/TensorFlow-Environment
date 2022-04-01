@@ -38,6 +38,8 @@ Ref:  https://www.youtube.com/watch?v=qLjw_EtqmCs
    
  [Condition Solution]
  TensorFlow 在執行时，在Adding visible gpu devices: 0卡很久:
+ Ref: https://stackoverflow.com/questions/65542317/how-to-speed-up-the-adding-visible-gpu-devices-process-in-tensorflow-with-a-30
+ 
  1. 至環境變數-系統變數,加入【CUDA_CACHE_MAXSIZE=4294967296】
  
  2. 確認完成，並重新開機
